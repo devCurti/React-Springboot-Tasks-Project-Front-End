@@ -2,10 +2,10 @@
 
 Tasks é uma aplicação construída com o intuito de registrar tarefas para ser realizadas.
 
-![image](https://github.com/devCurti/React-Springboot-Tasks/assets/106403307/e4172e50-df73-4a43-95d6-e8039ce2689c)
+![TaskImagePortfolio](https://github.com/devCurti/react-springboot-task-project-back-end/assets/106403307/f60a8ba0-be1a-4c94-9ae3-8e21c7244b25)
 
-![TaskImage3](https://github.com/devCurti/React-Springboot-Tasks/assets/106403307/d4e30909-26d3-4f2d-836f-f4bf11320c00)
 
+![TaskImage3](https://github.com/devCurti/react-springboot-task-project-back-end/assets/106403307/2b93d3a3-5773-47dc-8aeb-8cbf076f5043)
 
 
 # Tecnologias utilizadas
@@ -29,7 +29,7 @@ Pré-requisitos: Java 17
 
 ```bash
 # clonar repositório
-git clone https://github.com/devCurti/React-Springboot-Tasks
+git clone https://github.com/devCurti/React-Springboot-Tasks-Project-Front-End
 
 # entrar na pasta do projeto back end
 
@@ -42,7 +42,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/devCurti/react-springboot-task-project-back-end/
 
 # entrar na pasta do projeto front end web
 cd front-web
@@ -54,9 +54,12 @@ yarn install
 yarn start
 ```
 
+# Back-end
+
+https://github.com/devCurti/react-springboot-task-project-back-end/
+
 # Autor
 
 João Vinícius Alves Curti
 
 https://www.linkedin.com/in/devCurti
->>>>>>> f77b3120a8499a9f152743866be5c82038ac88de
