@@ -1,0 +1,94 @@
+.modal_overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.4);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    z-index: 999;
+}
+
+.modal_overlay .modal_body {
+    background-color: white;
+    padding: 3em;
+    height: 60%;
+    width: 60%;
+    border-radius: 2px;
+    border: 2px solid;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal_overlay .modal_body h2 {
+    font-size: 32px;
+}
+
+.modal_overlay .modal_body .input_container {
+    width: calc(100% - 24px);
+}
+
+.modal_overlay .modal_body input {
+    padding: 12px;
+    border: 2px solid #c6c5c5c5;
+    color: rgba(0,0,0,0.9);
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 12px;
+    width: 100%;
+
+
+    margin-bottom: 12px;
+}
+
+.modal_overlay .modal_body label {
+    color: #242424;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.modal_overlay .modal_body .btn_secondary {
+    position: initial;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.modal_overlay .modal_body .btn_secondary:hover {
+    background-color: #209e5f;
+    transform: scale(1);
+}
+
+.btn_secondary{
+    border: 2px solid;
+    padding: 1em 0;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon{
+    font-size: 1.5em;
+    margin-bottom: -1.3em;
+    color:rgb(196, 32, 32);
+    
+}
+
+.icon_container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.icon:hover{
+    color:red;
+    cursor: pointer;
+}

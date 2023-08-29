@@ -1,0 +1,38 @@
+.task_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border: 2px solid;
+    padding: 2em;
+    margin-bottom: 3em;
+}
+
+.task_container button{
+    border: 2px solid;
+    color:black;
+    font-weight: bold;
+    padding: 1em;
+    cursor: pointer;
+    margin: 2em;
+}
+
+.deleteButton{
+    background-color: rgb(185, 62, 62);
+}
+
+.deleteButton:hover{
+    color: rgb(150, 25, 25);
+    font-weight: bolder;
+}
+
+.finishButton{
+    background-color: rgb(82, 185, 62);
+}
+
+
+.finishButton:hover{
+    color:  green;
+    font-weight: bolder;
+}

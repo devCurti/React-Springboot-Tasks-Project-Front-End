@@ -1,0 +1,27 @@
+.navbar_container{
+    display: flex;
+    padding: 1em 0;
+    margin-bottom: 2em;
+    background-color: #222;
+    border: 2px solid;
+
+}
+
+.navbar_container ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar_container li{
+    margin-right: 1em;
+    
+}
+
+.navbar_container li a{
+    color:white;
+    text-decoration: none;
+}
+
+.navbar_container li a:hover{
+    color:green;
+}
